@@ -1,0 +1,146 @@
+#header{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid green;
+    margin: 30px;
+}
+
+.box{
+    border: 4px solid black;
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    align-content: center;
+    margin: 30px;
+}
+img{
+    height: 70px;
+    width: 100px;
+}
+
+#player1{
+    position: relative;
+    float: left;
+    height: 20%;
+    width: 100px;
+    border: 2px solid red;
+    margin: 1px;
+    text-align: center;
+
+}
+#p1banner23{
+    position: relative;
+    top: 43%;
+    float: left;
+    height: 15%;
+    width: 70px;
+    margin-left: 75px;
+}
+#p1{
+    position: relative;
+    float: left;
+    top: 40%;
+    height: 60px;
+    width: 60px;
+    margin-left: 1px;
+}
+#p2{
+    position: relative;
+    float: right;
+    top: 40%;
+    height: 60px;
+    width: 60px;
+    margin-right: 1px;
+}
+#p2banner{
+    position: relative;
+    float: right;
+    height: 20%;
+    width: 100px;
+    border: 2px solid blue;
+    margin: 1px;
+    text-align: center;   
+}
+
+#p2banner24{
+    position: relative;
+    float: right;
+    top: 43%;
+    height: 70px;
+    width: 70px;
+    margin-right: 1px;
+
+    
+}
+
+
+
+#ShootBtn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 30px;
+    
+  }
+
+
+  .Score-Board{
+      border: 1px solid blue;
+      padding: 5px;
+      display: grid;
+      margin: 30px;
+
+  }
+
+  .grid-item{
+      border: 1px solid black;
+      padding: 10px;
+      font-size: 20px;
+        text-align: center;
+        font-weight: 900;
+
+  }
+
+  .result{
+    border: 1px solid black;
+    padding: 2px;
+    font-weight: bold;
+    margin: 30px;
+
+}
+  .result-item{
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+      text-align: center;
+
+}
+
+
+ 
+#resetBtn{
+    background-color: black;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+#p1FireScore{
+    font-size: 50px;
+    font-weight: bold;
+}
+#p2FireScore{
+    font-size: 50px;
+    font-weight: bold;
+}
